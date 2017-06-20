@@ -1,0 +1,11 @@
+batch normalizaion：使输入的每一个特征满足高斯分布
+batch normalizaion在没用的时候，网络可以通过参数忽略它
+在测试的时候使用整个训练集的mean和std
+sample randomly(random search better than grid search)
+
+nesterov momentum
+L-BFGS: does not work very well in mini-batch setting
+
+dropout在测试的时候，每个单元的输出要乘以p
+
+effective receptive field?
